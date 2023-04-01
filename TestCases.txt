@@ -1,0 +1,348 @@
+/usr/lib/jvm/java-1.11.0-openjdk-amd64/bin/java -javaagent:/u/idea/lib/idea_rt.jar=38337:/u/idea/bin -Dfile.encoding=UTF-8 -classpath /home/ee213130/IdeaProjects/Parking_Billing_System/out/production/Parking_Billing_System Parking_Billing.Main
+------------------------------------
+        PARKING BILLING SYSTEM
+------------------------------------
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+1
+Registration Number (AA NN AA NNNN) :
+aa 22 aa 2222
+Vehicle Type :
+2
+Phone Number :
+9222222222
+Email :
+aa@two.com
+Vehicle Registered Successfully :)
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+1
+Registration Number (AA NN AA NNNN) :
+aa 44 aa 4444
+Vehicle Type :
+4
+Phone Number :
+9444444444
+Email :
+aa@four.com
+Vehicle Registered Successfully :)
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+2
+Enter Vehicle Registration Number:
+aa 44 aa 4444
+*** 100/- rupees for each card ***
+Enter True if you want card:
+true
+vehicle is successfully got card
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+5
+Total Amount = 100.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+7
+----------------------------------------
+Registration Number = AA 44 AA 4444
+Vehicle Type = 4
+Phone Number = 9444444444
+Email = aa@four.com
+----------------------------------------
+----------------------------------------
+Registration Number = AA 22 AA 2222
+Vehicle Type = 2
+Phone Number = 9222222222
+Email = aa@two.com
+----------------------------------------
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+3
+Enter Vehicle Registration Number :
+aa 22 aa 2222
+Your 2-Wheeler Vehicle Parked Successfully
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+3
+Enter Vehicle Registration Number :
+aa 44 aa 4444
+Your 4-Wheeler Vehicle Parked Successfully
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+3
+Enter Vehicle Registration Number :
+bb 22 bb 2222
+It is Unregistered Vehicle
+Enter Duration in Minutes (only in multiples of 30) :
+120
+Vehicle Type :
+2
+Your 2 wheeler vehicle Parked Successfully
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+3
+Enter Vehicle Registration Number :
+bb 44 bb 4444
+It is Unregistered Vehicle
+Enter Duration in Minutes (only in multiples of 30) :
+240
+Vehicle Type :
+4
+Your 4 wheeler vehicle Parked Successfully
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+6
+-------------------   --------    ----
+Registration Number   Duration    Type
+-------------------   --------    ----
+AA 44 AA 4444           0         Registered
+BB 44 BB 4444           240       UnRegistered
+AA 22 AA 2222           0         Registered
+BB 22 BB 2222           120       UnRegistered
+
+------------------------------------
+Vacancy slots for 2-wheeler = 0
+Vacancy slots for 4-wheeler = 2
+------------------------------------
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+4
+Enter Vehicle Registration Number :
+aa 22 aa 2222
+Enter Duration in Minutes (only in multiples of 30) :
+30
+Bill amount = 5/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+5
+Total Amount = 105.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+4
+Enter Vehicle Registration Number :
+aa 44 aa 4444
+Enter Duration in Minutes (only in multiples of 30) :
+60
+Bill amount = 19.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+5
+Total Amount = 124.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+4
+Enter Vehicle Registration Number :
+bb 22 bb 2222
+Enter Duration in Minutes (only in multiples of 30) :
+240
+Vehicle Type :
+2
+Bill amount = 90.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+5
+Total Amount = 214.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+4
+Enter Vehicle Registration Number :
+bb 44 bb 4444
+Enter Duration in Minutes (only in multiples of 30) :
+120
+Vehicle Type :
+4
+Bill amount =100.0
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+6
+No Vehicles In Parking
+Vacancy slots for 2-wheeler = 2
+Vacancy slots for 4-wheeler = 4
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+5
+Total Amount = 314.0/-
+*********************************
+|   1.Register a Vehicle        |
+|   2.Get Parking Card          |
+|   3.Park a Vehicle            |
+|   4.Take Out a Vehicle        |
+|   5.Total Amount              |
+|   6.Parked Vehicles List      |
+|   7.Registered Vehicles List  |
+|   8.Exit                      |
+*********************************
+Enter your Choice :
+8
+
+Process finished with exit code 0
